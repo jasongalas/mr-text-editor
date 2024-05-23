@@ -4,15 +4,15 @@ The quick brown fox jumps over the lazy dog
 
 ## Description
 
-Given the files for just another text editior, we were tasked with creating a Progressive Web Application. This involved massaging the package.jsons to run the proper scripts, configuring a webpack, and some Javascript manipulations.
+Given the files for just another text editior, we were tasked with creating a Progressive Web Application. This involved massaging the package.jsons to run the proper scripts, configuring a webpack, and some Javascript manipulations. These files are usually done up for us in the context of this coding bootcamp, so it was good practice to type it out ourselves.
 
 ## Installation
 
-There was some backend installation involved in this, but everything should run from the render link here:
+There was some backend installation involved in this, but everything should run from the render link here: https://mr-text-editor.onrender.com/
 
 ## Usage
 
-
+As the name suggests, it's a text editor. Although it does respond to Javascript key words, which means aspects like "console.log" and "functions" get highlighted with unique colors, so that's kindof neat. You can also install the application natively as a chrome app, and that's also kindof neat.
 
 ## Credits
 
