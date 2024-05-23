@@ -23,12 +23,16 @@ module.exports = () => {
         title: 'JATE'
       }),
 
-      new GenerateSW(),
+      new InjectManifest({
+        swSrc: "./src-sw.js",
+        swDest: "service-worker.js"
+      }),
       new WebpackPwaManifest({
-        // TODO: Create a manifest.json:
+        fingerprints: false,
+        inject: true,
         short_name: "JATE",
         name: "Just Another Text Editor",
-        description: "Type it out",
+        description: "Type it out in just another text editior!",
         background_color: "#7eb4e2",
         theme_color: "#7eb4e2",
         start_url: "./",
